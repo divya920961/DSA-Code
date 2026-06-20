@@ -1,3 +1,4 @@
-int n = 0;
-    cout << "Enter number:";
-    cin >> n;
+#include <iostream>
+using namespace std;
+
+int main()
