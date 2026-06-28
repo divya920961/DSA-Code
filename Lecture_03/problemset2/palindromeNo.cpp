@@ -9,8 +9,9 @@ int main()
     int orignal=num;
     while(num>0){
 
-        int  last=num%10;
-        rev=rev*10+last;
+        
+        int  last=num%10; //to get last number
+        rev=rev*10+last; //to get reverse
         num/=10;
         
     }
