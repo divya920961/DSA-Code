@@ -7,11 +7,11 @@ int main()
     cout << "Enter the character : ";
     cin >> ex;
 
-    if ('a' >= ex >= 'm')
+    if ('a' <= ex && ex<= 'm' )
     {
         cout << "Character present between a and m";
     }
-    else if ('n' <= ex <= 'z')
+    else if ('n' <= ex && ex <= 'z')
     {
         cout << "Character present between n and z";
     }
