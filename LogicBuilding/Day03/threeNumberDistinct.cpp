@@ -11,7 +11,7 @@ int main()
     cout << "Enter Third Number : ";
     cin >> n3;
 
-    if (n1 != n2 && n1 != n3 && n2 != n3)
+    if (n1 != n2 || n1 != n3 || n2 != n3)
     {
         cout << "All the numbers are Distinct";
     }
