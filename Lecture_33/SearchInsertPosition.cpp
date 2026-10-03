@@ -14,6 +14,7 @@ public:
             int mid = low + (high - low) / 2;
 
             if (nums[mid] == target)
+            
             {
                 return mid;
             }
